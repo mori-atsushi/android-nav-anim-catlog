@@ -12,10 +12,31 @@ import com.example.nav_anim_catalog.databinding.FragmentListBinding
 class ListFragment : Fragment() {
     companion object {
         private val list = listOf(
-            DemoData("Nothing", "without animation", R.id.to_sample_nothing),
-            DemoData("Fade In / Fade Out", "default animation", R.id.to_sample_fade),
-            DemoData("Slide In / Slide Out", "slide and fade animation", R.id.to_sample_slide),
-            DemoData("Zoom In / Zoom Out", "zoom and fade animation", R.id.to_sample_zoom)
+            DemoData(
+                "None",
+                "without animation",
+                R.id.to_sample_nothing
+            ),
+            DemoData(
+                "Fade In / Fade Out",
+                "default animation",
+                R.id.to_sample_fade
+            ),
+            DemoData(
+                "Slide In / Slide Out",
+                "horizontal slide and fade animation",
+                R.id.to_sample_slide
+            ),
+            DemoData(
+                "Zoom In / Zoom Out",
+                "zoom and fade animation",
+                R.id.to_sample_zoom
+            ),
+            DemoData(
+                "Slide Up / Slide Down",
+                "vertical slide animation",
+                R.id.to_sample_up
+            )
         )
     }
 

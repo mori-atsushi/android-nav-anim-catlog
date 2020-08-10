@@ -35,6 +35,14 @@
             app:exitAnim="@anim/nav_zoom_exit_anim"
             app:popEnterAnim="@anim/nav_zoom_pop_enter_anim"
             app:popExitAnim="@anim/nav_zoom_pop_exit_anim" />
+
+        <action
+            android:id="@+id/to_sample_up"
+            app:destination="@id/sampleFragment"
+            app:enterAnim="@anim/nav_up_enter_anim"
+            app:exitAnim="@anim/nav_up_exit_anim"
+            app:popEnterAnim="@anim/nav_up_pop_enter_anim"
+            app:popExitAnim="@anim/nav_up_pop_exit_anim" />
     </fragment>
 
     <fragment
