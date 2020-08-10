@@ -37,8 +37,5 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="20dp"
-        android:background="#EEEEEE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:background="#EEEEEE" />
 </LinearLayout>
