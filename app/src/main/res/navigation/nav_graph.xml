@@ -11,6 +11,14 @@
         <action
             android:id="@+id/to_sample_nothing"
             app:destination="@id/sampleFragment" />
+
+        <action
+            android:id="@+id/to_sample_fade"
+            app:destination="@id/sampleFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
 
     <fragment

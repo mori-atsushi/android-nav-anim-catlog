@@ -12,7 +12,8 @@ import com.example.nav_anim_catalog.databinding.FragmentListBinding
 class ListFragment : Fragment() {
     companion object {
         private val list = listOf(
-            DemoData("Nothing", "without animation", R.id.to_sample_nothing)
+            DemoData("Nothing", "without animation", R.id.to_sample_nothing),
+            DemoData("Fade In / Fade Out", "default animation", R.id.to_sample_fade)
         )
     }
 
