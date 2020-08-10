@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.nav_anim_catalog.MainActivity
 import com.example.nav_anim_catalog.R
 import com.example.nav_anim_catalog.databinding.FragmentListBinding
 
@@ -20,12 +21,14 @@ class ListFragment : Fragment() {
             DemoData(
                 "Fade In / Fade Out",
                 "default animation",
-                R.id.to_sample_fade
+                R.id.to_sample_fade,
+                android.R.color.white
             ),
             DemoData(
                 "Slide In / Slide Out",
                 "horizontal slide and fade animation",
-                R.id.to_sample_slide
+                R.id.to_sample_slide,
+                android.R.color.white
             ),
             DemoData(
                 "Zoom In / Zoom Out",
@@ -55,6 +58,10 @@ class ListFragment : Fragment() {
     }
 
     private fun navigate(data: DemoData) {
-        findNavController().navigate(data.resId)
+        data.backgroundColorRes?.let {
+            val activity = activity as MainActivity
+            activity.setBackgroundColor(it)
+        }
+        findNavController().navigate(data.destinationId)
     }
 }

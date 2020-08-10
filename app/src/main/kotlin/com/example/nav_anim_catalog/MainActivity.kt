@@ -1,6 +1,7 @@
 package com.example.nav_anim_catalog
 
 import android.os.Bundle
+import androidx.annotation.ColorRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
@@ -26,5 +27,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp()
+    }
+
+    fun setBackgroundColor(@ColorRes resId: Int) {
+        binding.root.setBackgroundResource(resId)
     }
 }
