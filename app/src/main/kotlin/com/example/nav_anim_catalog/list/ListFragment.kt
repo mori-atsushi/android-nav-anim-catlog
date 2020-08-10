@@ -13,7 +13,8 @@ class ListFragment : Fragment() {
     companion object {
         private val list = listOf(
             DemoData("Nothing", "without animation", R.id.to_sample_nothing),
-            DemoData("Fade In / Fade Out", "default animation", R.id.to_sample_fade)
+            DemoData("Fade In / Fade Out", "default animation", R.id.to_sample_fade),
+            DemoData("Slide In / Slide Out", "slide and fade animation", R.id.to_sample_slide)
         )
     }
 
