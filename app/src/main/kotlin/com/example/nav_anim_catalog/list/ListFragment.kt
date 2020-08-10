@@ -14,7 +14,8 @@ class ListFragment : Fragment() {
         private val list = listOf(
             DemoData("Nothing", "without animation", R.id.to_sample_nothing),
             DemoData("Fade In / Fade Out", "default animation", R.id.to_sample_fade),
-            DemoData("Slide In / Slide Out", "slide and fade animation", R.id.to_sample_slide)
+            DemoData("Slide In / Slide Out", "slide and fade animation", R.id.to_sample_slide),
+            DemoData("Zoom In / Zoom Out", "zoom and fade animation", R.id.to_sample_zoom)
         )
     }
 
