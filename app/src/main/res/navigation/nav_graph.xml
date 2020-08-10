@@ -67,6 +67,14 @@
             app:exitAnim="@anim/nav_rotate_exit_anim"
             app:popEnterAnim="@anim/nav_rotate_pop_enter_anim"
             app:popExitAnim="@anim/nav_rotate_pop_exit_anim" />
+
+        <action
+            android:id="@+id/to_sample_dynamic"
+            app:destination="@id/sampleFragment"
+            app:enterAnim="@anim/nav_dynamic_enter_anim"
+            app:exitAnim="@anim/nav_dynamic_exit_anim"
+            app:popEnterAnim="@anim/nav_dynamic_pop_enter_anim"
+            app:popExitAnim="@anim/nav_dynamic_pop_exit_anim" />
     </fragment>
 
     <fragment

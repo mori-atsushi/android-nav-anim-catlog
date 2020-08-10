@@ -57,6 +57,12 @@ class ListFragment : Fragment() {
                 "rotate animation",
                 R.id.to_sample_rotate,
                 android.R.color.white
+            ),
+            DemoData(
+                "Dynamic",
+                "dynamic animation",
+                R.id.to_sample_dynamic,
+                android.R.color.black
             )
         )
     }
