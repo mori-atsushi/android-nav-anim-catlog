@@ -6,7 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.nav_anim_catalog.databinding.ItemDemoBinding
 
 class DemosAdapter(
-    private val list: List<DemoData>
+    private val list: List<DemoData>,
+    private val onClick: (DemoData) -> Unit
 ) : RecyclerView.Adapter<DemosAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -24,6 +25,9 @@ class DemosAdapter(
         holder.binding.also {
             it.title.text = data.title
             it.description.text = data.description
+            it.root.setOnClickListener {
+                onClick(data)
+            }
         }
     }
 
