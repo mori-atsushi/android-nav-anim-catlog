@@ -43,6 +43,14 @@
             app:exitAnim="@anim/nav_up_exit_anim"
             app:popEnterAnim="@anim/nav_up_pop_enter_anim"
             app:popExitAnim="@anim/nav_up_pop_exit_anim" />
+
+        <action
+            android:id="@+id/to_sample_ios"
+            app:destination="@id/sampleFragment"
+            app:enterAnim="@anim/nav_ios_enter_anim"
+            app:exitAnim="@anim/nav_ios_exit_anim"
+            app:popEnterAnim="@anim/nav_ios_pop_enter_anim"
+            app:popExitAnim="@anim/nav_ios_pop_exit_anim" />
     </fragment>
 
     <fragment

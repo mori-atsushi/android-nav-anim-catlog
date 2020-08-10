@@ -39,6 +39,12 @@ class ListFragment : Fragment() {
                 "Slide Up / Slide Down",
                 "vertical slide animation",
                 R.id.to_sample_up
+            ),
+            DemoData(
+                "Like iOS",
+                "slide in animation like ios navigation ",
+                R.id.to_sample_ios,
+                android.R.color.black
             )
         )
     }
