@@ -51,6 +51,14 @@
             app:exitAnim="@anim/nav_ios_exit_anim"
             app:popEnterAnim="@anim/nav_ios_pop_enter_anim"
             app:popExitAnim="@anim/nav_ios_pop_exit_anim" />
+
+        <action
+            android:id="@+id/to_sample_twitter"
+            app:destination="@id/sampleFragment"
+            app:enterAnim="@anim/nav_twitter_enter_anim"
+            app:exitAnim="@anim/nav_twitter_exit_anim"
+            app:popEnterAnim="@anim/nav_twitter_pop_enter_anim"
+            app:popExitAnim="@anim/nav_twitter_pop_exit_anim" />
     </fragment>
 
     <fragment

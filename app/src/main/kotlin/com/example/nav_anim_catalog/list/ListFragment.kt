@@ -45,6 +45,12 @@ class ListFragment : Fragment() {
                 "slide in animation like ios navigation ",
                 R.id.to_sample_ios,
                 android.R.color.black
+            ),
+            DemoData(
+                "Like Twitter App",
+                "slide in and zoom out animation like twitter app ",
+                R.id.to_sample_twitter,
+                android.R.color.black
             )
         )
     }
